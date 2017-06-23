@@ -149,12 +149,21 @@ nav.sticky {
 }
 
 ul.posl {
+  height: 100%;
   list-style: none;
 }
 .posl li {
+
   font-size: 20px;
   padding: 12px 0px;
   font-weight: 400;
+}
+#container-list {
+  width: 100%;
+  text-align: left;
+/* border: 1px solid red; */
+/* padding: 1em; */
+  margin: 0 auto
 }
 .fa-truck{
   margin-right: 20px;
@@ -324,6 +333,10 @@ Media Queries
 
   nav .nav-toggle {
     display: none;
+  }
+
+  #container-list{
+    width: 60%
   }
 
   nav ul {
