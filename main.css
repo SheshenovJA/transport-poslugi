@@ -245,7 +245,7 @@ Sections
 .features img {
   display: block;
   margin: 0 auto 1em;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .features .col-3 {
